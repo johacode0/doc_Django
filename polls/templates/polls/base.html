@@ -13,7 +13,8 @@
     <title>
         {% block title %}{% endblock %}
     </title>
-    {% block styles %}{% endblock %}
+    {% block styles %}
+    <link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">{% endblock %}
 </head>
 
 <body>
